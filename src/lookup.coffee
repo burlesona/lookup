@@ -1,7 +1,3 @@
-resultsTemplate = _.template """
-
-"""
-
 $('#search').submit (event) ->
   event.preventDefault()
   $.ajax(
@@ -18,4 +14,3 @@ $('#search').submit (event) ->
   ).fail( ->
     console.log "lookup failed"
   )
-
