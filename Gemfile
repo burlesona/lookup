@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+gem "activerecord","4.2.0.beta2"
+gem "pg"
+gem "thin"
+gem "rerun"
+gem "sinatra"
+gem "sinatra-contrib"
+gem "geocoder"
+gem "slim"
+gem "pry"

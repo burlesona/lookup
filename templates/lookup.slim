@@ -1,0 +1,18 @@
+nav
+  a href="/neighborhoods" Edit Neighborhoods
+
+h1 Lookup an Address
+
+form#search action="/lookup" method="POST"
+  label Address
+  input#address type="text" name="address"
+
+  label Zip Code
+  input#zip type="text" name="zip"
+
+  button Look up
+
+#search-results
+
+
+script src="/lookup.js"
